@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: lightgray;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+    margin-left: 10px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.dropdown-content li a {
+    padding: 12px 16px;
+}
+
+/* Affichage du menu au survol */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Russo One", sans-serif;
+}
+
+.cards-catch {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 370px;
+    height: 694px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: inset 1px 1px 10px white;
+    transition: .4s ease-in-out;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 20px 20px 0 0;
+}
+
+.image-blur {
+    mask-image: linear-gradient(rgba(244, 14, 14, 1), transparent);
+}
+
+.inside-card {
+    width: 370px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
