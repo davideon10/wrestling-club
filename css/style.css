@@ -13,8 +13,8 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: black;
-    color: white;
+    background-color: lightgray;
+    color: black;
     font-family: "Poppins", sans-serif;
 }
 
@@ -54,7 +54,7 @@ nav a {
 }
 
 nav a:hover {
-    color: black;
+    color: gold;
 
 }
 
@@ -123,4 +123,11 @@ h1 {
     justify-content: space-around;
     text-align: center;
     padding: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
