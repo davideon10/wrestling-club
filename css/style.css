@@ -17,14 +17,12 @@
 body {
     width: 100%;
     min-height: 100vh;
-    /* overflow-x: hidden; */
     color: var(--color-body);
     font-family: "Poppins", sans-serif;
     background-image: url(../Ressources/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    /* background-position: center; */
 }
 
 /* header+nav */
@@ -175,5 +173,21 @@ h1 {
     background-color: #444;
     color: white;
     opacity: 0.6;
-    
+}
+
+footer {
+    background-color: #444;
+    height: 50px;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .cards-catch {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        display: flex;
+        align-items: center;
+    }
 }
