@@ -13,6 +13,7 @@
     list-style-type: none;
 }
 
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -27,9 +28,6 @@ body {
 }
 
 /* header+nav */
-header {
-    /* background-color: lightgray; */
-}
 
 .logo img {
     width: 100px;
@@ -152,6 +150,7 @@ h1 {
 .histoire h2 {
     text-align: center;
     margin: 30px 30px;
+    color: white;
 }
 
 .frise-catch h2 {
@@ -170,12 +169,11 @@ h1 {
 .frise {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     padding: 10px;
     border-radius: 20px;
     text-align: center;
     background-color: #444;
     color: white;
     opacity: 0.6;
+    
 }
