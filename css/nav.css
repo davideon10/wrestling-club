@@ -11,7 +11,8 @@ nav {
     align-items: center;
     position: sticky;
     padding: 0.5em 1em;
-    box-shadow: 1px 1px 25px rgba(0,0,0,0.87);
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px red;
     z-index: 1;
 }
 

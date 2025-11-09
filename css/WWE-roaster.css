@@ -13,26 +13,14 @@
     list-style-type: none;
 }
 
+
 body {
     width: 100%;
     min-height: 100vh;
+    color: var(--color-body);
     font-family: "Poppins", sans-serif;
     background-image: url(../Ressources/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-}
-
-
-h1 {
-    color: var(--color-title);
-    text-align: center;
-    margin: 30px;
-}
-
-footer {
-    background-color: #444;
-    height: 50px;
-    text-align: center;
-    color: white;
 }
