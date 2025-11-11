@@ -25,10 +25,10 @@ body {
     object-fit: cover;
 }
 
-h1{
-    text-align: center;
-    font-weight: bold;
-    color: white;
+.show {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .roaster-card {
@@ -43,7 +43,6 @@ h1{
     height: 300px;
     background-color: black;
     opacity: 0.8;
-    border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
     position: relative;
@@ -59,7 +58,7 @@ h1{
 }
 
 .cards img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .cards p {
